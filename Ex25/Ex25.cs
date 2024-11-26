@@ -23,7 +23,7 @@ namespace T1Activitats
             string markResult = "";
             try
             {
-                mark = float.Parse(Console.ReadLine());
+                mark = float.Parse(Console.ReadLine())/*Voy a probocar nuevos conflictos*/;
             }
             catch (FormatException e) { Console.WriteLine(FormatExceptionMsg, e.Message); }
             catch (OverflowException e) { Console.WriteLine(OverFlowExceptionMsg, e.Message); }
@@ -36,7 +36,7 @@ namespace T1Activitats
             else if (mark >= 0f && mark < 5f) { markResult = marksCollection[4]; }
             else { markResult = marksCollection[5]; }
 
-            Console.WriteLine(markResult);
+            Console.WriteLine(markResult) /*Aqui tambien*/;
 
         }
     }
