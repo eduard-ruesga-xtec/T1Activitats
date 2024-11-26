@@ -23,7 +23,7 @@ namespace T1Activitats
             string markResult = "";
             try
             {
-                mark = float.Parse(Console.ReadLine());
+                mark = float.Parse(Console.ReadLine())//Intento provocar un error;
             }
             catch (FormatException e) { Console.WriteLine(FormatExceptionMsg, e.Message); }
             catch (OverflowException e) { Console.WriteLine(OverFlowExceptionMsg, e.Message); }
