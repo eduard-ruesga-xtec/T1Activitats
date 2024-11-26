@@ -17,6 +17,8 @@ namespace T1Activitats
             const string OverFlowExceptionMsg = "Numero massa gran. Error: {0}";
             const string ExceptionMsg = "Error: {0}";
             const string IndexOutOfRangeExceptionMsg = "Numero fora del rang, s'espera interval del 0-10.";
+            //Aqui conflicto master
+            int bacio = 0;
 
             string[] marksCollection = { "Excel·lent", "Notable", "Be", "Suficient", "Suspes", "Nota invalida" };
             float mark = 0f;
