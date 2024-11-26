@@ -25,7 +25,7 @@ namespace T1Activitats
             string markResult = "";
             try
             {
-                mark = float.Parse(Console.ReadLine())/*Voy a probocar nuevos conflictos*/;
+                mark = float.Parse(Console.ReadLine())/*Voy a probocar nuevos conflictos otro mas*/;
             }
             catch (FormatException e) { Console.WriteLine(FormatExceptionMsg, e.Message); }
             catch (OverflowException e) { Console.WriteLine(OverFlowExceptionMsg, e.Message); }
